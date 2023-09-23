@@ -1,0 +1,325 @@
+
+body{
+    background-color: #15171E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    background-image: url("https://bnetaccount.akamaized.net/login/static/images/toolkit/defaults/logos/bnet/logo-horizontal-color-light.1z1fI.svg");
+    margin: 0 auto auto auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 72px;
+}
+
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 416px;
+    flex-direction: column;
+    padding: 24px 0px 24px 0px;
+}
+
+.login-header{
+    font-family: "Object Sans", Arial, Helvetica, "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 40px 0px;
+    text-align: center;
+    color: #ffffff
+}
+
+a {
+    text-decoration: none;
+}
+
+.web-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-services:hover{
+    cursor: pointer;
+}
+
+.icons{
+    width: 16px;
+    height: 16px;
+}
+
+.web-icons-holder{
+    padding: 13px;
+    margin: 12px;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-bg{
+    background-color: #ffffff;
+}
+
+.white-bg:hover{
+    background-color: #CECECE;
+}
+
+.playstation-icon{
+    background-color: #0074e0;
+}
+
+.playstation-icon:hover{
+    background-color: #00439C;
+}
+
+.facebook-icon{
+    background-color: #0074e0;
+}
+
+.facebook-icon:hover{
+    background-color: #1860B7;
+}
+
+.xbox-icon{
+    background-color: #107c10;
+}
+
+.xbox-icon:hover{
+    background-color: #0a4f0a;
+}
+
+.switch-icon{
+    background-color: #e60012;
+}
+
+.switch-icon:hover{
+    background-color: #b3000e;
+}
+
+.other-option-label{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    height: 21px;
+    font-weight: 700;
+    margin: 40px 0px 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans", "Object Sans", sans-serif;
+}
+
+.other-option-label span{
+    display: inline-block;
+    width: 124px;
+    white-space: nowrap;
+    height: 21px;
+}
+
+.other-option-label::before{
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 500px;
+    content: "";
+    height: 1px;
+    margin-right: 20px;
+    right: 100%;
+}
+
+.other-option-label::after{
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 500px;
+    content: "";
+    height: 1px;
+    margin-left: 20px;
+    right: 100%;
+}
+
+.input{
+    width: 100%;
+}
+
+.login-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.login-area div{
+    width: 100%;
+    
+}
+
+.email-input input{
+    width: 100%;
+    height: 40px;
+    padding: 0 12px 0 12px;
+    margin: 3px 0 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 4px;
+    background-color: #171920;
+    color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: inherit;
+}
+
+.email-input input:hover{
+    border-color: rgba(255, 255, 255, 0.84);
+    background-color: #171920;
+    color: #ffffff;
+}
+
+.password-input input:hover{
+    border-color: rgba(255, 255, 255, 0.84);
+    background-color: #171920;
+    color: #ffffff;
+}
+
+
+.password-input input{
+    width: 100%;
+    height: 40px;
+    padding: 0 52px 0 12px;
+    margin: 3px 0 3px 0;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 4px;
+    background-color: #171920;
+    color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: inherit;
+}
+
+.password-input{
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.password-input span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.password-input span:hover{
+    cursor: pointer;
+}
+
+.submit-button-area{
+    margin: 35px 0 11px 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.84);
+    font-family: "Object Sans", Arial, Helvetica, "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-size: 16px;
+
+}
+
+.submit-button{
+    background-color: #0074e0;
+    color: #ffffff;
+    border: 2px solid transparent;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px 0 6px 0;
+    vertical-align: middle;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+}
+
+.help-links{
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 48px 0 0 0;
+    line-height: 24px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.help-links li a{
+    margin-bottom: 24px;
+    color: rgb(48, 150, 245);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+}
+
+.help-links li a img{
+    width: 11px;
+    height: 13px;
+}
+
+
+.help-links li{
+    margin-bottom: 24px;
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+}
+
+.help-links li:hover{
+    text-decoration: underline;
+}
+
+.help-links li:visited{
+    text-decoration: underline;
+    color: #47a6ff;
+}
+
+.footer-nav{
+    padding: 10px 0 10px 0;
+    width: 700px;
+    min-width: auto;
+    margin: 0 auto;
+    color: #7b7b7b;
+}
+
+.footer-links{
+    text-align: center;
+    padding: 8px 0 0 30px;
+    font-family: Blizzard, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-links span{
+    margin: 0 5px 0 5px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+}
+
+.copyright{
+    padding: 8px 0;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    letter-spacing: 0;
+}

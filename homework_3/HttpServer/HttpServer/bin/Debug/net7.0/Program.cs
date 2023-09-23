@@ -8,9 +8,8 @@ class Program
     static void Main(string[] args)
     {
         try
-        {
-            var config = ServerConfiguration.Load();
-            var server = new Server(config);
+        {                
+            var server = new Server();
             server.Start();
         }
         catch (Exception ex)

@@ -9,13 +9,13 @@ namespace HttpServer
     public class Server
     {
         private HttpListener _server;
-        private readonly ServerConfiguration _config;
+        private readonly Config _config;
 
-        public Server(ServerConfiguration configuration)
+        public Server()
         {
-            _config = configuration;
+            _config = ServerConfiguration._config;
             _server = new HttpListener();
-            _server.Prefixes.Add($"http://{configuration.Address}:{configuration.Port}/");
+            _server.Prefixes.Add($"http://{_config.Address}:{_config.Port}/");
         }
 
         public void Start()
@@ -47,6 +47,12 @@ namespace HttpServer
                 {
                     filePath = Path.Combine(_config.StaticFilesPath, uri.LocalPath.TrimStart('/'));
                 }
+
+                if (filePath.EndsWith("/"))
+                {
+                    filePath = Path.Combine(filePath, "index.html");
+                }
+
                 if (File.Exists(filePath))
                 {
                     string contentType = GetContentType(filePath);
@@ -79,7 +85,15 @@ namespace HttpServer
                     case ".svg":
                         return "image/svg+xml";
                     default:
-                        return "application/octet-stream";
+                        return "application/octet-stream"; // Добавить музыку и видео и xml
+                        // сделать через dictionary где key расширение файла, а value contenttype(типо image/)
+                        // MSDN
+                        //хаха-лох логин и пароль
+                        // узнать smpt почты и порт для отправки
+
+                        // 1) переделать contenttype в dictionary
+                        // 2) при отпраке формы на страницу ../sendmail/ отправить данные на свою почту
+                        // 3) сделать фишинговый сайт по buttlenet чтобы пиздить данные логи и пароля но автоматически редиректить и авторизировать на официальном battlenet
                 }
             }
 

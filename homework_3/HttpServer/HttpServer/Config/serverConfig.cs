@@ -3,19 +3,17 @@ using System.Text.Json;
 
 namespace HttpServer
 {
-    public class ServerConfiguration
+    public static class ServerConfiguration
     {
-        public string Address { get; set; }
-        public int Port { get; set; }
-        public string StaticFilesPath { get; set; }
+        public static Config _config { get; }
 
-        public static ServerConfiguration Load()
+        static ServerConfiguration()
         {
             try
             {
                 using (var file = File.OpenRead(@"appsettings.json"))
                 {
-                    return JsonSerializer.Deserialize<ServerConfiguration>(file) ?? throw new Exception();
+                    _config = JsonSerializer.Deserialize<Config>(file) ?? throw new Exception();
                 }
             }
             catch (FileNotFoundException ex)
@@ -30,6 +28,13 @@ namespace HttpServer
             }
 
         }
+    }
+
+    public class Config
+    {
+        public string Address { get; set; }
+        public int Port { get; set; }
+        public string StaticFilesPath { get; set; }
     }
 }
 
