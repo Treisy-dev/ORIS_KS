@@ -21,15 +21,7 @@ public class Login
             var login = formData["username"];
             var password = formData["password"];
 
-            if (login == "admin" && password == "admin")
-            {
-                if (login == "admin" && password == "admin")
-                {
-                    return true;
-                }
-            }
+            return (login == "admin" && password == "admin");
         }
-
-        return false;
     }
 }
