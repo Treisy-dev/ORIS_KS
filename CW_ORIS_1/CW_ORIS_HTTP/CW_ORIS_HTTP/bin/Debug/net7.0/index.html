@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+  <title>Моя страница</title>
+  <style>
+    form {
+      margin-bottom: 40px;
+    }
+
+    form label { 
+        margin: 12px;
+      }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <form action="index.html" method="POST">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id"><br>
+    
+    <label for="brand">Марка:</label>
+    <input type="text" id="brand" name="brand"><br>
+    
+    <label for="model">Модель:</label>
+    <input type="text" id="model" name="model"><br>
+    
+    <label for="year">Год выпуска:</label>
+    <input type="date" id="year" name="year"><br>
+    
+    <label for="color">Цвет:</label>
+    <input type="text" id="color" name="color"><br>
+    
+    <label for="mileage">Пробег:</label>
+    <input type="text" id="mileage" name="mileage"><br>
+    
+    <label for="is_available">Доступность:</label>
+    <input type="checkbox" id="is_available" name="is_available"><br>
+
+    <label for="add_year">Год добавления в бд:</label>
+    <input type="date" id="add_year" name="add_year"><br>
+
+    <label for="car_count">Количество:</label>
+    <input type="text" id="car_count" name="car_count"><br>
+    
+    <input type="submit" value="Добавить запись">
+  </form>
+
+  <table>
+    {databaseData}
+  </table>
+</body>
+</html>

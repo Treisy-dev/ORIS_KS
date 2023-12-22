@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9oePRBjushun7neApQFYrc7f2EBmwqKYj89bm3FJu5iIaK57io9y6l7tmuN2tRIB7Twdhro0cKYK96DJQen4fw==",
+  "success": true,
+  "projectFilePath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/CW_ORIS_1/CW_ORIS_HTTP/CW_ORIS_HTTP/CW_ORIS_HTTP.csproj",
+  "expectedPackageFiles": [
+    "/Users/kirillshelokov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-rc.2.23479.6/microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "/Users/kirillshelokov/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-rc.2.23479.6/microsoft.extensions.logging.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "/Users/kirillshelokov/.nuget/packages/npgsql/8.0.0-rc.2/npgsql.8.0.0-rc.2.nupkg.sha512"
+  ],
+  "logs": []
+}

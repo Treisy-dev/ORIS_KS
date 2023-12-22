@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4ivJouXs8COaBEg6BzLnOTJexHhDvFSwFPePjAuYNZPphnmDF8JwEbuMQ1//LNQ0gkze1qfxXcMtAg3R50Z7w==",
+  "success": true,
+  "projectFilePath": "/Users/kirillshelokov/Desktop/Семестровка ОРИС/HttpServer/HttpServer/HttpServer.csproj",
+  "expectedPackageFiles": [
+    "/Users/kirillshelokov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/kirillshelokov/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/kirillshelokov/.nuget/packages/npgsql/8.0.1/npgsql.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

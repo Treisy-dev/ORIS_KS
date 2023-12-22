@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+  <title>Моя страница</title>
+  <style>
+    /* CSS стили для формы и таблицы */
+    form {
+      margin-bottom: 20px;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <!-- Форма добавления записи -->
+  <form action="insert_data.php" method="POST">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id"><br>
+    
+    <label for="brand">Марка:</label>
+    <input type="text" id="brand" name="brand"><br>
+    
+    <label for="model">Модель:</label>
+    <input type="text" id="model" name="model"><br>
+    
+    <label for="year">Год выпуска:</label>
+    <input type="date" id="year" name="year"><br>
+    
+    <label for="color">Цвет:</label>
+    <input type="text" id="color" name="color"><br>
+    
+    <label for="mileage">Пробег:</label>
+    <input type="text" id="mileage" name="mileage"><br>
+    
+    <label for="is_available">Доступность:</label>
+    <input type="checkbox" id="is_available" name="is_available"><br>
+    
+    <input type="submit" value="Добавить запись">
+  </form>
+
+  <!-- Таблица с данными из базы данных -->
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Марка</th>
+      <th>Модель</th>
+      <th>Год выпуска</th>
+      <th>Цвет</th>
+      <th>Пробег</th>
+      <th>Доступность</th>
+    </tr>
+    <!-- Здесь будут выводиться данные из базы данных -->
+    <tr>
+      <td>1</td>
+      <td>Марка 1</td>
+      <td>Модель 1</td>
+      <td>2022-01-01</td>
+      <td>Черный</td>
+      <td>10000</td>
+      <td>Да</td>
+    </tr>
+  </table>
+</body>
+</html>

