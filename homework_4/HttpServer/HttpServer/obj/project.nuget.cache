@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "njkcG/HOvtyxEsa/8+YSUFYoId2a8294vmG6AUqNhCX3k/VnJfCKs1tkwitLKfUXXaIccc1eQKzaxJizbfinpA==",
+  "dgSpecHash": "Shupi1SKExK9nFXu9iyeNgHMYPdhCSn91LYR8CkNZekEIgg4deuh7YFiBUlkTmcO3fENyzaD0jeCKvqdU3DWNA==",
   "success": true,
-  "projectFilePath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_4/HttpServer/HttpServer/HttpServer.csproj",
-  "expectedPackageFiles": [
-    "/Users/kirillshelokov/.nuget/packages/microsoft.netcore.app.ref/7.0.12/microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
-    "/Users/kirillshelokov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.12/microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512",
-    "/Users/kirillshelokov/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.12/microsoft.netcore.app.host.osx-arm64.7.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_3/HttpServer/HttpServer/HttpServer.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

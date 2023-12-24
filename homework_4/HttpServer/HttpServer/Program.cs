@@ -8,7 +8,7 @@ class Program
     static void Main(string[] args)
     {
         try
-        {
+        {                
             var server = new Server();
             server.Start();
         }

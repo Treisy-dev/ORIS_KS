@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{855BE41C-36E9-4A00-9D70-9E3EDC5647C1}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HttpServer/Controller/AccountsController.cs">
+    <Files>
+      <File FileName="HttpServer/Program.cs" Line="25" Column="1" />
+      <File FileName="HttpServer/appsettings.json" Line="7" Column="42" />
+      <File FileName="HttpServer/server.cs" Line="22" Column="44" />
+      <File FileName="HttpServer/Config/serverConfig.cs" Line="16" Column="57" />
+      <File FileName="HttpServer/services/EmailSenderService.cs" Line="18" Column="31" />
+      <File FileName="HttpServer/Handlers/Handler.cs" Line="13" Column="1" />
+      <File FileName="HttpServer/Handlers/StaticFilesHandler.cs" Line="48" Column="10" />
+      <File FileName="HttpServer/Handlers/ControllersHandler.cs" Line="50" Column="36" />
+      <File FileName="HttpServer/Controller/AccountsController.cs" Line="45" Column="10" />
+      <File FileName="HttpServer/Attributes/HttpController.cs" Line="1" Column="1" />
+      <File FileName="HttpServer/services/IEmailSenderService.cs" Line="9" Column="2" />
+      <File FileName="HttpServer/Attributes/HttpGetAttribute.cs" Line="8" Column="34" />
+      <File FileName="HttpServer/Attributes/HttpPostAttribute.cs" Line="7" Column="6" />
+      <File FileName="HttpServer/Model/Account.cs" Line="7" Column="1" />
+      <File FileName="HttpServer/Attributes/HttpMethodAttribute.cs" Line="8" Column="54" />
+      <File FileName="HttpServer/Managers/ContentTypeManager.cs" Line="5" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HttpServer" expanded="True">
+            <Node name="HttpServer">
+              <Node name="Attributes" expanded="True" />
+              <Node name="Config" expanded="True" />
+              <Node name="Controller" expanded="True">
+                <Node name="AccountsController.cs" selected="True" />
+              </Node>
+              <Node name="Handlers" expanded="True" />
+              <Node name="Managers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HttpServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

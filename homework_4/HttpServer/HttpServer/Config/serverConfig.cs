@@ -35,10 +35,6 @@ namespace HttpServer
         public string Address { get; set; }
         public int Port { get; set; }
         public string StaticFilesPath { get; set; }
-        public int SmtpPort { get; set; }
-        public string SMTP { get; set; }
-        public string SenderLogin { get; set; }
-        public string SenderPassword { get; set; }
     }
 }
 

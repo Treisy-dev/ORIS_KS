@@ -1,0 +1,237 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 0 2em 0;
+}
+
+.main-content {
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation + .main-content {
+    min-width: calc(100% - 250px);
+    width: calc(100% - 250px);
+}
+
+.navigation {
+    margin: 0;
+    width: 250px;
+    min-width: 250px;
+    padding: 25px;
+    height: auto;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    display: block;
+}
+
+.navigation a {
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation > ul > li > a {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.vip a {
+    color: red;
+}
+
+.navigation > ul > li > ul a {
+    color: #6d6d6d;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+}
+
+.main-content .data-list {
+    width: 47%;
+    display: flex;
+    margin: 1.5vw 1.5%;
+}
+
+.main-content section {
+    display: flex;
+    background-color: #fbfbfb;
+    border: 1px solid #dfdfdf;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+    max-width: 100%;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.places ol {
+    margin: 0 0 2em 0;
+    list-style: none;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ol{ 
+    margin: 0;
+    padding: 0;
+}
+
+.places li {
+    padding: 5px 0;
+    position: relative;
+    border-bottom: 1px solid #B1B1B1;
+    counter-increment: step-counter;
+    padding-left: 40px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.places li a {
+    margin-right: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #167ac6;
+    text-decoration: none;
+}
+
+.places li > .wrap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.places .nick {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.places .detail {
+    border-bottom: 0;
+    padding: 15px 0 0 0;
+}
+
+.stats {
+    color: #c64cff;
+    align-self: center;
+}
+
+.stats-center {
+    color: #25c2dd;
+}
+
+.main-content section header p {
+    color: #999;
+    font-size: 1.25em;
+    position: relative;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+
+.clans-ava {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+}
+
+.places .nick .clanNameStat {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.places .nick .clanNameStat a {
+    margin: 0;
+}
+
+.places li:first-child::before {
+    background-color: gold;
+    color: white;
+    font-size: 22px;
+}
+
+.places li:nth-child(2):before {
+    background-color: silver;
+    color: white;
+    font-size: 22px;
+}
+
+.places li:nth-child(3):before {
+    background-color: #E8B17A;
+    color: white;
+    font-size: 22px;
+}
+
+.places li:last-child::before {
+    background-color: white;
+    color: white;
+    font-size: 22px;
+}
+
+.places li:before {
+    content: counter(step-counter);
+    width: 40px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 39px;
+    font-weight: bold;
+    color: #000000;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: -40px;
+}

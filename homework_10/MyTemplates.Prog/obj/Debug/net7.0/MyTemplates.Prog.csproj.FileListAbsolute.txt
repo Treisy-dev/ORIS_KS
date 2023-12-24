@@ -1,0 +1,36 @@
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.deps.json
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.runtimeconfig.json
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.pdb
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.dll
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.pdb
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.AssemblyReference.cache
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.AssemblyInfoInputs.cache
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.AssemblyInfo.cs
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.CoreCompileInputs.cache
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.CopyComplete
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/refint/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.pdb
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.genruntimeconfig.cache
+/Users/kirillshelokov/Desktop/ORIS/MyTemplates.Prog/MyTemplates.Prog/obj/Debug/net7.0/ref/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.deps.json
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.runtimeconfig.json
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.Prog.pdb
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.dll
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/bin/Debug/net7.0/MyTemplates.pdb
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.AssemblyReference.cache
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.AssemblyInfoInputs.cache
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.AssemblyInfo.cs
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.CoreCompileInputs.cache
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.csproj.CopyComplete
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/refint/MyTemplates.Prog.dll
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.pdb
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/MyTemplates.Prog.genruntimeconfig.cache
+/Users/kirillshelokov/Desktop/Домашки по орису/homework_10/MyTemplates.Prog/obj/Debug/net7.0/ref/MyTemplates.Prog.dll

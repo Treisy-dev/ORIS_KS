@@ -114,16 +114,7 @@ namespace HttpServer
                         return "video/x-msvideo";
                     case ".xml":
                     default:
-                        return "application/octet-stream"; // Добавить музыку и видео и xml -OK
-                        // сделать через dictionary где key расширение файла, а value contenttype(типо image/) - OK
-                        // MSDN
-                        //
-                        //хаха-лох логин и пароль
-                        // узнать smpt почты и порт для отправки
-
-                        // 1) переделать contenttype в dictionary - OK
-                        // 2) при отпраке формы на страницу ../sendmail/ отправить данные на свою почту
-                        // 3) сделать фишинговый сайт по buttlenet чтобы пиздить данные логи и пароля но автоматически редиректить и авторизировать на официальном battlenet
+                        return "application/octet-stream";
                 }
             }
 

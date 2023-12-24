@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_4/HttpServer/HttpServer/HttpServer.csproj",
+      "projectUniqueName": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_3/HttpServer/HttpServer/HttpServer.csproj",
       "projectName": "HttpServer",
-      "projectPath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_4/HttpServer/HttpServer/HttpServer.csproj",
+      "projectPath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_3/HttpServer/HttpServer/HttpServer.csproj",
       "packagesPath": "/Users/kirillshelokov/.nuget/packages/",
-      "outputPath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_4/HttpServer/HttpServer/obj/",
+      "outputPath": "/Users/kirillshelokov/Documents/GitHub/ORIS_KS/homework_3/HttpServer/HttpServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kirillshelokov/.nuget/NuGet/NuGet.Config"
@@ -55,26 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.12, 7.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[7.0.12, 7.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.12, 7.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{855BE41C-36E9-4A00-9D70-9E3EDC5647C1}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HttpServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HttpServer/Controller/AccountsController.cs">
+    <Files>
+      <File FileName="HttpServer/Program.cs" />
+      <File FileName="HttpServer/appsettings.json" />
+      <File FileName="HttpServer/server.cs" />
+      <File FileName="HttpServer/Config/serverConfig.cs" />
+      <File FileName="HttpServer/services/EmailSenderService.cs" />
+      <File FileName="HttpServer/Handlers/Handler.cs" />
+      <File FileName="HttpServer/Handlers/StaticFilesHandler.cs" />
+      <File FileName="HttpServer/Handlers/ControllersHandler.cs" />
+      <File FileName="HttpServer/Controller/AccountsController.cs" Line="21" Column="1" />
+      <File FileName="HttpServer/Attributes/HttpController.cs" />
+      <File FileName="HttpServer/services/IEmailSenderService.cs" />
+      <File FileName="HttpServer/Attributes/HttpGetAttribute.cs" />
+      <File FileName="HttpServer/Attributes/HttpPostAttribute.cs" />
+      <File FileName="HttpServer/Model/Account.cs" />
+      <File FileName="HttpServer/Attributes/HttpMethodAttribute.cs" />
+      <File FileName="HttpServer/Managers/ContentTypeManager.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HttpServer" expanded="True">
+            <Node name="HttpServer" expanded="True">
+              <Node name="Controller" expanded="True">
+                <Node name="AccountsController.cs" selected="True" />
+              </Node>
+              <Node name="Handlers" expanded="True" />
+              <Node name="Managers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

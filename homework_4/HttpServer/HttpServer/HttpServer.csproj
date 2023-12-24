@@ -9,21 +9,9 @@
 
   <ItemGroup>
     <None Remove="Config\" />
-    <None Remove="services\" />
-    <None Remove="Handlers\" />
-    <None Remove="Controller\" />
-    <None Remove="Attributes\" />
-    <None Remove="Managers\" />
-    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config\" />
-    <Folder Include="services\" />
-    <Folder Include="Handlers\" />
-    <Folder Include="Controller\" />
-    <Folder Include="Attributes\" />
-    <Folder Include="Managers\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json">

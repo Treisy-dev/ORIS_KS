@@ -1,28 +1,28 @@
 ﻿<Properties StartupConfiguration="{855BE41C-36E9-4A00-9D70-9E3EDC5647C1}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HttpServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="HttpServer/server.cs">
     <Files>
       <File FileName="HttpServer/Program.cs" Line="11" Column="10" />
       <File FileName="HttpServer/appsettings.json" Line="4" Column="18" />
-      <File FileName="HttpServer/server.cs" Line="125" Column="31" />
+      <File FileName="HttpServer/server.cs" Line="45" Column="29" />
       <File FileName="HttpServer/Config/serverConfig.cs" Line="11" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HttpServer" expanded="True">
-            <Node name="HttpServer" expanded="True">
-              <Node name="Config" expanded="True" />
+            <Node name="HttpServer">
+              <Node name="server.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HttpServer PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
